@@ -51,17 +51,19 @@ Runs the final 23-check analysis using the cross-repository enrichment produced 
 
 For the frozen 100,000-record manuscript cohort, the final analysis reproduces a mean exposure score of **5.22374** and **51,492 records (51.492%)** classified as High or Critical.
 
-## Data
+# Data
 
-### BioSample retrieval dataset
+This directory contains data associated with the APBT genomic metadata audit.
 
-The BioSample-level dataset produced by Program 1 is available in this repository:
+## BioSample retrieval dataset
 
-`data/SARS_CoV2_BioSample_metadata_100000.csv`
+The BioSample-level dataset produced by Program 1 is included directly in this repository:
 
-### Cross-repository enriched dataset
+`SARS_CoV2_BioSample_metadata_100000.csv`
 
-The enriched cross-repository dataset used for the final manuscript analysis is archived on Zenodo because it exceeds GitHub's browser upload limit.
+## Cross-repository enriched dataset
+
+The enriched dataset used for the final cross-repository analysis is archived on Zenodo because of its file size.
 
 **Exact manuscript dataset, Version 1:**  
 https://doi.org/10.5281/zenodo.22084045
@@ -69,7 +71,9 @@ https://doi.org/10.5281/zenodo.22084045
 **Concept DOI, representing all versions:**  
 https://doi.org/10.5281/zenodo.22084044
 
-The version-specific DOI should be used when reproducing the exact results reported in the manuscript.
+For exact reproduction of the manuscript results, use the Version 1 DOI above.
+
+The status `not_found_in_queried_resources` refers only to the NCBI resources examined in the study and should not be interpreted as confirmed absence from all NCBI or INSDC resources.
 
 ## Cross-repository checks
 
